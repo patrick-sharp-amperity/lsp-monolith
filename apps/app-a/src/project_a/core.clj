@@ -1,6 +1,6 @@
 (ns project-a.core
   (:require
-    [lein-monolith.example/lib-a :as lib-a]))
+    [lib-a.core :as lib-a]))
 
 (defn foo
   "I don't do a whole lot."
