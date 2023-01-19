@@ -1,0 +1,7 @@
+/target
+/checkouts
+/.lein-*
+/.nrepl-port
+/*.bak
+.lsp/
+**/.clj-kondo/.cache/
