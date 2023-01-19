@@ -2,8 +2,6 @@
   (:require
     [lein-monolith.example/lib-a :as lib-a]))
 
-(defn bar [x] (lib-a/foo x))
-
 (defn foo
   "I don't do a whole lot."
   [x]
@@ -12,3 +10,5 @@
 (foo "I say: ")
 (foo "I say again: ")
 
+(lib-a/foo "They say: ")
+(lib-a/foo "They say again: ")
